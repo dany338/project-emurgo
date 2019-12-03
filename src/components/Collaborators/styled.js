@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 45px;
 
   .title {
     height: 32px;
@@ -22,5 +23,9 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    img {
+      margin-right: 57px;
+    }
   }
 `;

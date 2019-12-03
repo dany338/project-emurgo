@@ -9,7 +9,7 @@ import { cardsBlog } from '../../config/const';
 
 const Blog = props => {
   return (
-    <Container>
+    <Container id="blog-content">
       <div className="title">
         {'Blog'}
       </div>

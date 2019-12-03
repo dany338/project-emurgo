@@ -5,6 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 45px;
 
   &.image {
     height: 600px;
@@ -13,6 +14,11 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-image: url(${(props) => props.photo});
     position: relative;
+
+    @media only screen and (min-width: 993px)
+    {
+      width: 112%;
+    }
   }
 
   h2 {

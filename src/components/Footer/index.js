@@ -6,17 +6,19 @@ import { Container } from './styled';
 import { logosSocial } from '../../config/const';
 /* Components */
 import Nav from '../Nav';
+/* Defined Constants */
+import { photoStartPage } from '../../config/const';
 
 const Footer = props => {
   return (
-    <Container>
+    <Container className="image" photo={photoStartPage[0]}>
       <Nav />
       <div className="footer-icons">
         <div className="title">
           {'All rights reserved | EMURGOTEST'}
         </div>
         <div className="logo">
-          {Array.from({ length: 4 }, (_, index) => (
+          {Array.from({ length: 6 }, (_, index) => (
               <img key={`social_${index}`}  src={logosSocial[index]} alt={`logo ${index}`}/>
             ))
           }

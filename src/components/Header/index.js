@@ -10,7 +10,9 @@ import { photoEmurgo, photoStartPage } from '../../config/const';
 const Header = props => {
   return (
     <Container className="image" photo={photoStartPage[0]}>
-      <Nav />
+      <div className="header-nav">
+        <Nav />
+      </div>
       <div className="header-content">
         <div className="paragraph">
           {'EMURGO Building'}<br />

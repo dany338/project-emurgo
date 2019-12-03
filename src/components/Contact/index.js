@@ -7,7 +7,7 @@ import { photoContactUs } from '../../config/const';
 
 const Contact = props => {
   return (
-    <Container>
+    <Container id="contact-content">
       <div className="title">
         {'Contact us'}
       </div>

@@ -4,7 +4,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+
+  &.image {
+    height: 187px;
+    width: 100%;
+    background: linear-gradient(41deg, #0C4146 0%, #48A1B0 100%);
+  }
 
   .footer-icons {
     display: flex;
@@ -16,7 +21,7 @@ export const Container = styled.div`
       height: 15px;
       width: 203px;
       color: #FFFFFF;
-      font-family: Rubik;
+      font-family: Helvetica, Arial;
       font-size: 13px;
       line-height: 15px;
     }

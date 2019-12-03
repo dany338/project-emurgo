@@ -15,11 +15,20 @@ export const Container = styled.div`
     position: relative;
   }
 
+  .header-nav {
+    position: absolute;
+    left: 116px;
+    top: 28px;
+  }
+
   .header-content {
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: flex-start;
+    position: absolute;
+    left: 116px;
+    top: 305px;
 
     .paragraph {
       height: 148px;
@@ -29,6 +38,7 @@ export const Container = styled.div`
       font-size: 62px;
       font-weight: bold;
       line-height: 72px;
+      margin-bottom: 25px;
     }
 
     .task {
@@ -38,6 +48,7 @@ export const Container = styled.div`
       font-family: Helvetica, Arial;
       font-size: 20px;
       line-height: 24px;
+      margin-bottom: 25px;
     }
 
     .logo {
@@ -45,6 +56,7 @@ export const Container = styled.div`
       flex-direction: row;
       align-items: left;
       justify-content: flex-start;
+      margin-bottom: 25px;
 
       span {
         height: 24px;

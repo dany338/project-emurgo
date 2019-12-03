@@ -9,7 +9,7 @@ import CardAbout from '../CardAbout';
 
 const About = props => {
   return (
-    <Container>
+    <Container id="about-content">
       <div className="title">
         {'About'}
       </div>

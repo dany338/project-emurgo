@@ -7,13 +7,13 @@ import { logosCollaborators } from '../../config/const';
 
 const Collaborators = props => {
   return (
-    <Container>
+    <Container id="collaborators-content">
       <div className="title">
         {'Our collaborators'}
       </div>
       <div className="logo">
         {Array.from({ length: 4 }, (_, index) => (
-          <img key={`collaborators_${index}`} src={logosCollaborators[index]} alt={`logo ${index}`}/>
+          <img width="200" height="49" key={`collaborators_${index}`} src={logosCollaborators[index]} alt={`logo ${index}`}/>
         ))}
       </div>
     </Container>

@@ -12,11 +12,11 @@ import Contact from '../Contact';
 const Content = props => {
   return (
     <Container>
-      <About id="about-content" />
-      <Developer id="developer-content" />
-      <Collaborators id="collaborators-content" />
-      <Blog id="blog-content" />
-      <Contact id="contact-content" />
+      <About/>
+      <Developer/>
+      <Collaborators />
+      <Blog />
+      <Contact />
     </Container>
   )
 }

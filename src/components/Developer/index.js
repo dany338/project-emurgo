@@ -7,7 +7,7 @@ import { photoDeveloper } from '../../config/const';
 
 const Developer = props => {
   return (
-    <Container className="image" photo={photoDeveloper[0]}>
+    <Container id="developer-content" className="image" photo={photoDeveloper[0]}>
       <h2>{'Developer'}</h2>
     </Container>
   )
