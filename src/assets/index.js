@@ -17,6 +17,12 @@ import blogThree from './photos/Blog_3.jpg';
 import contactUs from './photos/Contact_us.jpg';
 import developerPerson from './photos/Developer.jpg';
 import startPage from './photos/start_page.jpg';
+/* Emurgo */
+import emurgoLogo from './emurgo/EMURGO-logo.svg';
+import emurgotestLogo from './emurgo/EMURGOTEST-logo.svg';
+import fast from './emurgo/Fast.svg';
+import secure from './emurgo/Secure.svg';
+import simple from './emurgo/Simple.svg';
 
 export default {
   cardano,
@@ -34,5 +40,10 @@ export default {
   blogThree,
   contactUs,
   developerPerson,
-  startPage
+  startPage,
+  emurgoLogo,
+  emurgotestLogo,
+  fast,
+  secure,
+  simple
 };

@@ -3,20 +3,34 @@ import PropTypes from 'prop-types'
 /* Style Components */
 import { Container } from './styled';
 
-const Card = props => {
+const Card = ({ index, image, date, text }) => {
   return (
     <Container>
-      Card...
+      <div className="image">
+        <img src={image} alt={`Blog ${index}`} />
+      </div>
+      <div className="date">
+        {date}
+      </div>
+      <div className="text">
+        {text}
+      </div>
     </Container>
   )
 }
 
 Card.propTypes = {
-  props: PropTypes.oneOfType([PropTypes.object]),
+  index: PropTypes.number.isRequired,
+  image: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 Card.defaultProps = {
-  props: {},
+  index: 0,
+  image: '',
+  date: '',
+  text: '',
 };
 
 export default Card;

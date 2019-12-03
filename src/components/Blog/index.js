@@ -2,11 +2,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 /* Style Components */
 import { Container } from './styled';
+/* Components */
+import Card from '../Card';
+/* Defined Constants */
+import { cardsBlog } from '../../config/const';
 
 const Blog = props => {
   return (
     <Container>
-      Blog...
+      <div className="title">
+        {'Blog'}
+      </div>
+      <div className="content">
+        {cardsBlog.map((blog, index) => (
+          <Card key={`blog_${index}`} index={index} {...blog} />
+        ))}
+      </div>
     </Container>
   )
 };

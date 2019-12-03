@@ -5,16 +5,18 @@ import { Container } from './styled';
 /* Components */
 import About from '../About';
 import Developer from '../Developer';
+import Collaborators from '../Collaborators';
 import Blog from '../Blog';
 import Contact from '../Contact';
 
 const Content = props => {
   return (
     <Container>
-      <About />
-      <Developer />
-      <Blog />
-      <Contact />
+      <About id="about-content" />
+      <Developer id="developer-content" />
+      <Collaborators id="collaborators-content" />
+      <Blog id="blog-content" />
+      <Contact id="contact-content" />
     </Container>
   )
 }
