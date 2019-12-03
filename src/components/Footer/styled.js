@@ -4,11 +4,16 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 
   &.image {
     height: 187px;
     width: 100%;
     background: linear-gradient(41deg, #0C4146 0%, #48A1B0 100%);
+  }
+
+  .footer-nav {
+    left: 116px;
   }
 
   .footer-icons {

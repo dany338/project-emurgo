@@ -12,7 +12,9 @@ import { photoStartPage } from '../../config/const';
 const Footer = props => {
   return (
     <Container className="image" photo={photoStartPage[0]}>
-      <Nav />
+      <div className="footer-nav">
+        <Nav />
+      </div>
       <div className="footer-icons">
         <div className="title">
           {'All rights reserved | EMURGOTEST'}

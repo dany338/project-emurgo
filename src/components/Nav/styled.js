@@ -24,6 +24,7 @@ export const Container = styled.div`
       font-weight: 500;
       line-height: 20px;
       cursor: pointer;
+      margin-left: 49px;
     }
   }
 `;

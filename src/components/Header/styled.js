@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: tretch;
+  justify-content: space-evenly;
 
   &.image {
     height: 935px;
@@ -78,6 +78,9 @@ export const Container = styled.div`
       flex-direction: row;
 
       .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
         height: 48px;
         width: 216px;
@@ -87,7 +90,6 @@ export const Container = styled.div`
 
         span {
           height: 17px;
-          width: 108px;
           color: #FFFFFF;
           font-family: Helvetica, Arial;
           font-size: 14px;
