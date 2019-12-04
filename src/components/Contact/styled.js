@@ -6,6 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   margin-bottom: 45px;
+  width: 100%;
 
   .title {
     display: flex;
@@ -20,6 +21,7 @@ export const Container = styled.div`
     font-weight: bold;
     line-height: 32px;
     text-align: center;
+    width: 100%;
   }
 
   .contact-us {
@@ -27,12 +29,13 @@ export const Container = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
+    width: 100%;
     .form-inputs {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
+      width: 50%;
 
       .text-paragraph {
         height: 28px;
@@ -41,19 +44,23 @@ export const Container = styled.div`
         font-family: Helvetica, Arial;
         font-size: 18px;
         line-height: 28px;
+        margin-bottom: 16px;
       }
 
       .text-input {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
         box-sizing: border-box;
         height: 54px;
         width: 469px;
         border: 1px solid #215F68;
         border-radius: 2px;
+        margin-bottom: 36px;
 
         span {
           margin: 16px 10px 18px 23px;
           height: 20px;
-          width: 38px;
           opacity: 0.5;
           color: #8C8C8C;
           font-family: Helvetica, Arial;
@@ -63,16 +70,19 @@ export const Container = styled.div`
       }
 
       .text-area {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
         box-sizing: border-box;
         height: 170px;
         width: 469px;
         border: 1px solid #215F68;
         border-radius: 2px;
+        margin-bottom: 36px;
 
         span {
           margin: 16px 10px 18px 23px;
           height: 20px;
-          width: 38px;
           opacity: 0.5;
           color: #8C8C8C;
           font-family: Helvetica, Arial;
@@ -83,8 +93,8 @@ export const Container = styled.div`
 
       .form-button {
         display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-between;
         box-sizing: border-box;
         height: 48px;
         width: 216px;
@@ -94,9 +104,8 @@ export const Container = styled.div`
 
         span {
           height: 17px;
-          width: 108px;
           color: #215F68;
-          font-family: Rubik;
+          font-family: Helvetica, Arial;
           font-size: 14px;
           font-weight: 500;
           letter-spacing: 1.87px;
@@ -109,7 +118,7 @@ export const Container = styled.div`
 
     .image-contact {
       height: 632px;
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;

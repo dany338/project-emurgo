@@ -7,7 +7,7 @@ import { photoContactUs } from '../../config/const';
 
 const Contact = props => {
   return (
-    <Container id="contact-content">
+    <Container id="contact-content" photo={photoContactUs[0]}>
       <div className="title">
         {'Contact us'}
       </div>
@@ -32,7 +32,7 @@ const Contact = props => {
             <span>{'Learn more'}</span>
           </div>
         </div>
-        <div className="image-contact" photo={photoContactUs[0]}>
+        <div className="image-contact">
           <h2>{'Contact'}</h2>
         </div>
       </div>
